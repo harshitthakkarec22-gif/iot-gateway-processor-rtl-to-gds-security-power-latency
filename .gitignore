@@ -1,0 +1,88 @@
+# Simulation artifacts
+simv
+simv.daidir/
+csrc/
+*.vcd
+*.vpd
+*.fsdb
+*.trn
+*.dsn
+*.wlf
+work/
+INCA_libs/
+.simvision/
+novas.rc
+novas.conf
+novas_dump.log
+verdiLog/
+*.log
+*.jou
+*.rpt
+*.mr
+*.pvl
+*.syn
+*.svf
+
+# Coverage
+coverage/
+*.vdb
+urgReport/
+cov_work/
+
+# Waveform databases
+waves/
+*.wdb
+*.shm/
+
+# Synthesis outputs
+*.v.bak
+*.sdc
+*.ddc
+*.pvl
+*.syn
+*.mr
+*.svf
+genus.log*
+genus_*.log
+
+# Place & Route
+*.def.gz
+*.fp
+*.cts
+*.route
+*.dat
+*.rpt
+*.drc
+*.lvs
+*.gds
+*.oas
+fv/
+timingReports/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+*.bak
+*.orig
+*.tmp
+tmp/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Build directories
+build/
+out/
+output/
+results/
+
+# Cadence specific
+CDS.log
+cds.lib
+hdl.var
+.nfs*
